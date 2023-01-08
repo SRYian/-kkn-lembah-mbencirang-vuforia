@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Temulwak" size="1.000000 0.750000" />
+    <ImageTarget name="Lengkuas" size="1.000000 0.750000" />
+    <ImageTarget name="Kunyit" size="1.000000 0.750000" />
+    <ImageTarget name="Kencur" size="1.000000 0.750000" />
+    <ImageTarget name="Jahe" size="1.000000 0.750000" />
+    <ImageTarget name="Aloevera" size="1.000000 0.750000" />
+  </Tracking>
+</QCARConfig>
