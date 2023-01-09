@@ -1,1 +1,1 @@
-# -kkn-lembah-mbencirang-vuforia
+# kkn-lembah-mbencirang-vuforia
