@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 20098123}
   - component: {fileID: 20098126}
   m_Layer: 0
-  m_Name: Ale Vera
+  m_Name: Aloe Vera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,16 +213,16 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Aloevera
+  mTrackableName: SC_Aloevera
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
-  mTrackingOptimization: 2
+  mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 20098126}
 --- !u!4 &20098125
@@ -255,8 +255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 20098124}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Astronaut
-  mDatasetName: Vuforia/VuforiaMars_Images.xml
+  mTargetName: SC_Aloevera
+  mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 20098124}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -472,13 +472,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Jahe
+  mTrackableName: SC_Jahe
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 2
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 23526458}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Temulwak
+  mTargetName: SC_Jahe
   mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 23526458}
   mMeshFilter: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1023549665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,7 +1608,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023549663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2147,6 +2147,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9074454173636417998, guid: 8d75ed73371ece249ae6c752a75ea681, type: 3}
   m_PrefabInstance: {fileID: 1199151227}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1199151229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2669052045399061835, guid: 8d75ed73371ece249ae6c752a75ea681, type: 3}
+  m_PrefabInstance: {fileID: 1199151227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0e1b2bcddaefa409fa450074beb0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253657980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,13 +2790,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Kencur
+  mTrackableName: SC_Kencur
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 2
@@ -2821,7 +2832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1500271364}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Kencur
+  mTargetName: SC_Kencur
   mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 1500271364}
   mMeshFilter: {fileID: 0}
@@ -2886,7 +2897,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1199151229}
         m_TargetAssemblyTypeName: Collision_AR, Assembly-CSharp
         m_MethodName: ToggleObject
         m_Mode: 1
@@ -2916,13 +2927,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Lengkuas
+  mTrackableName: SC_lengkuas
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 2
@@ -2958,7 +2969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1557551359}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Lengkuas
+  mTargetName: SC_lengkuas
   mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 1557551359}
   mMeshFilter: {fileID: 0}
@@ -3135,7 +3146,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1871200702}
         m_TargetAssemblyTypeName: Collision_AR, Assembly-CSharp
         m_MethodName: ToggleObject
         m_Mode: 1
@@ -3165,13 +3176,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Temulwak
+  mTrackableName: SC_Temulawak
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 2
@@ -3207,7 +3218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1779722438}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Temulwak
+  mTargetName: SC_Temulawak
   mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 1779722438}
   mMeshFilter: {fileID: 0}
@@ -3672,6 +3683,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1867849656402916312, guid: 979936cb34fdd424c9d43d14a26a7e52, type: 3}
   m_PrefabInstance: {fileID: 1871200700}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1871200702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5356935647422696667, guid: 979936cb34fdd424c9d43d14a26a7e52, type: 3}
+  m_PrefabInstance: {fileID: 1871200700}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0e1b2bcddaefa409fa450074beb0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1905873479
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,13 +3784,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Kunyit
+  mTrackableName: SC_Kunyit
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Tumbuhan.xml
-  mAspectRatio: 0.75
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.75
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 2
@@ -3804,7 +3826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1905873482}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Kunyit
+  mTargetName: SC_Kunyit
   mDatasetName: Vuforia/Tumbuhan.xml
   mCastedBehaviour: {fileID: 1905873482}
   mMeshFilter: {fileID: 0}
