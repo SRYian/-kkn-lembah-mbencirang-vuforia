@@ -4,39 +4,36 @@ using UnityEngine;
 
 public class EndGameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject gameScreen;
+    public GameObject endScreen;
+    public GameObject[] unlockeds;
+    public GameObject[] lockeds;
 
-    // Update is called once per frame
-    void Update()
+    public void checkEnd()
     {
-        
-    }
-    
-    /*
-    private void _checkEnd()
-    {
-        if (_aloeVera && _jahe && _kencur && _temulawak && _kunyit && _lengkuas)
+        bool isEnd = true;
+        foreach (var unlocked in unlockeds)
+        {
+            if (!unlocked.activeSelf) isEnd = false;
+        }
+
+        if (isEnd)
         {
             gameScreen.SetActive(false);
             endScreen.SetActive(true);
-        } 
+        }
     }
 
     public void playAgain()
     {
-        _aloeVera = false;
-        _jahe = false;
-        _kencur = false;
-        _temulawak = false;
-        _kunyit = false;
-        _lengkuas = false;
+        foreach (var unlocked in unlockeds)
+        {
+            unlocked.SetActive(false);
+        }
         
-        aloeVeraLocked.SetActive(true);
-        aloeVeraUnlocked.SetActive(false);
+        foreach (var locked in lockeds)
+        {
+            locked.SetActive(true);
+        }
     }
-    */
 }

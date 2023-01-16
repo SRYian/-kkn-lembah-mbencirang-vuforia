@@ -4,30 +4,19 @@ using UnityEngine;
 
 public class Collision_AR : MonoBehaviour
 {
-    public GameObject CanvasUI;
-    private bool isEnable=false;
-    private GameObject EndingObject;
+    public GameObject Button;
+    public GameObject unlocked;
+    private bool isEnable;
 
     private void Start()
     {
-        EndingObject = GameObject.FindGameObjectWithTag("Finish");
-
-        CanvasUI.SetActive(false);
+        Button.SetActive(false);
     }
     public void ToggleObject()
     {
-        CanvasUI.SetActive(true);
-
-        /*if (!isEnable)
+        if (!unlocked.activeSelf)
         {
-            isEnable = true;
-            Debug.Log(isEnable);
+            Button.SetActive(true);
         }
-        else
-        {
-            isEnable = false;
-            Debug.Log(isEnable);
-
-        }*/
     }
 }
